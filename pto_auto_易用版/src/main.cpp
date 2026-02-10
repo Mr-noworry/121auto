@@ -100,17 +100,14 @@ int main()
     }
   }
 }
-int autorun()//自动赛运动部分，调用了自定义函数，声明和使用方式在self-pro.h中
+int autorun()//自动赛部分，调用了自定义函数，声明和使用方式在self-pro.h中
 {
-  claw=1;
-  run_dir_speed_dis(0,30,2,false);
-  run_dir_speed_dis(90,30,2,false);
-  run_dir_speed_dis(0,75,6);
-  run_dir_speed_dis(90,30,2,false);
-  run_dir_speed_dis(90,30,2,false);
-  run_dir_speed_dis(0,30,2,false);
-  run_dir_speed_dis(90,30,2,false);
+  run_dir_speed_dis(30, 70, 4,true);
+  turnto(180);
+  pto4c(false);
+  wait(0.1, seconds);
+  beamto(80,200);
   pinup();
-  /*此行以上为自动程序部分aa */
+  pindown();
   return 0;
 }

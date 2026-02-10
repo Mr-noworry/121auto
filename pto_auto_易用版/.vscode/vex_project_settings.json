@@ -1,0 +1,19 @@
+{
+	"extension": {
+		"version": "0.7.2025041600",
+		"json": 2
+	},
+	"project": {
+		"name": "pto_auto",
+		"description": "",
+		"creationDate": "2025/9/12 11:01:05",
+		"platform": "IQ2",
+		"language": "cpp",
+		"slot": 2,
+		"sdkVersion": "IQ2_20250520_15_00_00",
+		"cpp": {
+			"includePath": [],
+			"printf_float": false
+		}
+	}
+}
